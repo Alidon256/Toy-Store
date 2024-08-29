@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Toy Store</string>
+    <string name="lorem_ipsum_is_a_place_holder_text_commonly_used_n_to_demonstrate_the_visual_form_of_a_document_or_a_n_typeface_without_relying_on_meaningful_content">Lorem ipsum is a place holder text commonly used\n to demonstrate the visual form of a document or a\n typeface without relying on meaningful content.</string>
+    <string name="enter_the_otp_we_have_sent_to_your_phone_number">Enter the OTP we have sent to your Phone number</string>
+    <string name="title_activity_main_fragment">MainFragmentActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="chat">Chat</string>
+    <string name="add">Add</string>
+    <string name="shop">Shop</string>
+    <string name="kawala_desire">Kawala Desire</string>
+    <string name="add_to_chart">Add to chart</string>
+    <string name="signin">SignIn</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

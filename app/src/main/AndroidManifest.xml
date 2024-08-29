@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToyStore"
+        tools:targetApi="31">
+        <activity
+            android:name=".Fragments.ui.home.MenuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.ToyStore.NoActionBar" />
+        <activity
+            android:name=".Desire"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.ui.home.HomeFragments.UploadActivities.ImageUpload3"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.ui.home.HomeFragments.UploadActivities.ImageUpload2"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.ui.home.HomeFragments.UploadActivities.ImageUpload1"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.ui.home.HomeFragments.Request.RequestActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.ui.home.HomeFragments.Request.RequestActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.ui.home.HomeFragments.Request.RequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPages.successfulVerification"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPages.VerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPages.SignIn2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPages.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInPages.SignIn1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash.Toy3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash.Toy2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash.Toy1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.MainFragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
