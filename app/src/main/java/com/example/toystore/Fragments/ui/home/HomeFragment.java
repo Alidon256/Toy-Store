@@ -43,7 +43,7 @@ public class HomeFragment extends Fragment {
         }
 
         // Set up TabLayout with a listener
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+     tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 switch (tab.getPosition()) {
@@ -77,6 +77,7 @@ public class HomeFragment extends Fragment {
 
         return view;
     }
+
 
     private void replaceFragment(Fragment fragment) {
         FragmentTransaction transaction = fragmentManager.beginTransaction();

@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ToyStore"
         tools:targetApi="31">
         <activity
+            android:name=".DataBases.AddInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataBases.MainPracticeActivity"
+            android:exported="false" />
+        <activity
             android:name=".Fragments.ui.home.MenuActivity"
             android:exported="false"
             android:label="@string/title_activity_menu"
