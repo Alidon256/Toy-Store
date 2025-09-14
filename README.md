@@ -41,25 +41,23 @@ The app uses a centralized `nav_graph.xml` to define all navigation paths. Each 
 ## 🖼️ Image Handling
 
 Images are stored in `res/drawable` and referenced directly in XML or Java:
+## 📦 Installation
 
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Alidon256/Toy-Store.git
 **XML Example:**
 ```xml
 <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:src="@drawable/toy_car" />
-```java
+
+java example
 ImageView imageView = findViewById(R.id.imageView);
 imageView.setImageResource(R.drawable.toy_car);
 
-## 📦 Installation
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Alidon256/Toy-Store.git
 
 
 
-
-## 📂 Project Structure
 
