@@ -16,9 +16,6 @@ The **Toy Store App** is a simple yet elegant Android application built in **Jav
 - 🛒 **Toy Catalog Simulation**  
   Users can browse toys, view details, and simulate adding items to a cart.
 
-- 🌙 **Dark Mode Support**  
-  The app responds to system-wide dark mode settings for a consistent visual experience.
-
 ## 🛠️ Tech Stack
 
 | Layer         | Technology         |
